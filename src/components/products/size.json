@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_products_sizes",
+  "info": {
+    "displayName": "Size",
+    "icon": "expand-arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "type": "string",
+      "maxLength": 3,
+      "required": true,
+      "minLength": 1
+    },
+    "active": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
